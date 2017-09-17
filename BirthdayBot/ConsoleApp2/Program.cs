@@ -20,7 +20,7 @@ namespace ConsoleApp1
 
             new CommandHandler();
 
-            await _client.LoginAsync(TokenType.Bot, "MzU4NDE3MzEzMzExMDk2ODM0.DJ6hgQ.HVxAE_MJOKLhjsg1xF0wM6VsSog");
+            await _client.LoginAsync(TokenType.Bot, ""); //discord token needed
 
             await _client.StartAsync();
 
